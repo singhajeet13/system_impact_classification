@@ -1,0 +1,7 @@
+equipment_group_name,Criteria 1,Criteria 2,Criteria 3,Criteria 4,Criteria 5,Criteria 6,Criteria 7,Criteria 8a,Criteria 8b
+Air Handling,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+Cooling,1.0,0.0,1.0,0.0,1.0,0.0,1.0,1.0,0.0
+Drying,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0
+Heating,0.75,0.25,0.75,0.25,0.75,0.25,0.75,0.75,0.25
+Material Handling,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+Power Generation,0.25,0.75,0.25,0.75,0.25,0.75,0.25,0.25,0.75

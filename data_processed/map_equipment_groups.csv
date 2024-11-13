@@ -1,0 +1,7 @@
+equipment_group_name,equipments
+Heating,"['Boiler', 'Furnace', 'Heater']"
+Cooling,"['Chiller', 'Cooler']"
+Power Generation,"['Generator', 'Turbine']"
+Material Handling,"['Conveyor', 'Mixer', 'Pump', 'Valve']"
+Air Handling,"['Fan', 'Blower']"
+Drying,['Dryer']

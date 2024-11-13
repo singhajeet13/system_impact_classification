@@ -1,0 +1,18 @@
+Equipment Group ID,Equipment Group,Criteria 1,Criteria 2,Criteria 3,Criteria 4,Criteria 5,Criteria 6,Criteria 7,Criteria 8a,Criteria 8b,Site Name,equipment_group_name,equipments
+1,Boiler,1,0,1,0,1,0,1,1,0,ABC,Heating,Boiler
+2,Conveyor,0,1,0,1,0,1,0,0,1,ABC,Material Handling,Conveyor
+3,Furnace,1,0,1,0,1,0,1,1,0,ABC,Heating,Furnace
+4,Compressor,0,1,0,1,0,1,0,0,1,ABC,Heating,Furnace
+5,Mixer,1,0,1,0,1,0,1,1,0,ABC,Material Handling,Mixer
+6,Pump,1,0,1,0,1,0,1,1,0,ABC,Material Handling,Pump
+7,Generator,0,1,0,1,0,1,0,0,1,ABC,Power Generation,Generator
+8,Chiller,1,0,1,0,1,0,1,1,0,ABC,Cooling,Chiller
+9,Valve,0,1,0,1,0,1,0,0,1,ABC,Material Handling,Valve
+10,Fan,1,0,1,0,1,0,1,1,0,ABC,Air Handling,Fan
+11,Blower,0,1,0,1,0,1,0,0,1,ABC,Air Handling,Blower
+12,Heater,1,0,1,0,1,0,1,1,0,ABC,Heating,Heater
+13,Dryer,0,1,0,1,0,1,0,0,1,ABC,Drying,Dryer
+14,Cooler,1,0,1,0,1,0,1,1,0,ABC,Cooling,Cooler
+15,Turbine,0,1,0,1,0,1,0,0,1,ABC,Power Generation,Turbine
+1,Coolers,1,0,1,0,1,0,1,1,0,BBB,Power Generation,Turbine
+2,Turbines,0,1,0,1,0,1,0,0,1,BBB,Power Generation,Turbine
