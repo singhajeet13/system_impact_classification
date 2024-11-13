@@ -4,6 +4,10 @@ from io import StringIO
 from typing import List, Optional, Annotated
 from custom_rag import get_equipment_scores_sync
 
+
+# title of the Streamlit app
+st.title("System Impact Classification") 
+
 #============================================================================================
 #          Function To get the equipement group and fetch the hiostorial values for criterias
 #=============================================================================================
@@ -74,13 +78,13 @@ if equipment_name:
         #============================================================================
         # Calling the LLM Chain to get the group name and values for criteria 1 to 8a
         #============================================================================
-        with st.spinner('Wait for it...'):
+        with st.spinner('Fetching the details for this equipment...'):
             criteria_output = node_rag(equipment_name)
         st.success("Done!")
         
         # If there is no matching equipment in the historiacal dataset, stop the flow and exit
         if criteria_output == None:
-            st.write("Equipment Not found")
+            st.write("Equipment Not found in the historical data, please run the app and enter different equipment name.")
             st.stop()
             # st.rerun()
 
@@ -96,6 +100,7 @@ if equipment_name:
             if not st.session_state.ask_question:  # Only set it once
                 st.session_state.ask_question = True
                 st.session_state.question_index = 0  # Reset question index for new equipment
+                st.write("As criteria 8a is True, so proceeding with the questions...")
                 st.rerun()  # Trigger rerun to start asking questions
         else:
 
@@ -109,6 +114,8 @@ if equipment_name:
 
 # Ask questions if ask_question flag is True from the previous interaction -- 8a is True
 if st.session_state.ask_question and st.session_state.ask_question:
+
+   
 
     # Display previous question-answer pairs
     for msg in st.session_state.messages:
